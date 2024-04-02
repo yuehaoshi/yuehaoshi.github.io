@@ -1,0 +1,116 @@
+const positions = [
+  {
+    jobID: 9,
+    company: 'Amazon',
+    position: 'SDE Intern',
+    link: 'https://www.amazon.com/',
+    daterange: 'May 2023 – August 2023',
+    points: [
+      'Developed and implemented a robust full-stack service using Typescript in React for the frontend and Java with AWS for the backend, enabling seamless collection and display of referral history data for Amazon Co-brand card members',
+      "Employed a customer-centric approach by implementing a scalable design methodology, elevating the overall user experience and ensuring the system's adaptability to future development requirements with 100% coverage tests",
+      'Led the design process for the service architecture, conducting discussions with stakeholders to ensure an effective design that prioritized security, speed, and customer experience, resulting in the creation of facilitative sequence diagrams',
+      'Collaborated actively and effectively within an agile, cross-functional team, participating in all daily scrums and contributing to sprint planning, fostering a collaborative and productive work environment',
+    ],
+  },
+  {
+    jobID: 8,
+    company: 'Cultural Awareness and Speech Enhancement (CASE) Program',
+    position: 'Program Chair',
+    link: 'https://cee.illinois.edu/directory/profile/snoeyink',
+    daterange: 'August 2020 – December 2021',
+    points: [
+      'CASE is a presentation practice program for advanced doctoral students in CEE Department at UIUC, hosted by Prof. Vernon L Snoeyink',
+      'Served as Chair for this multi-culture presentation program for three consecutive semesters to arrange schedule, recruit members, moderate presentation sessions and provide comments',
+      'Moderated presentation sessions and leave comments for presenters in different culture backgrounds to help members enhance presentation skills as well as multi-culture experience',
+    ],
+  },
+  {
+    jobID: 7,
+    company: 'Safe Global Water Institute',
+    position: 'Research Assistant',
+    link: 'http://publish.illinois.edu/safeglobalwater/',
+    daterange: 'August 2019 – May 2022',
+    points: [
+      'Research on Inactivation of Adenovirus Serotype 41 With Monochloramine. Instructor: Prof. Benito J. Mariñas',
+      'Simulated three-dimensional structure of virus coating protein by Python script through protein monomer to help analyze the potential reaction and damage area in disinfection process of waterborne enteric virus',
+      'Constructed three-dimensional model for single-stranded DNA aptamer through molecular visualization software VMD & NAMD to help analyze the potential contacting point between the single-stranded DNA and active virus particle',
+      'Conducted experiments for inactivation kinetics and mechanisms for the enteric virus in drinking water by monochloramine and free chlorine to acquire data for virus detecting biosensor development',
+      'Trained for methods and tools such as plaque assay, spectrophotometer, ultracentrifuge, cell culturing, and data processing skills with R, Python matplotlib and MATLAB',
+    ],
+  },
+  {
+    jobID: 6,
+    company: 'UIUC',
+    position: 'Teaching Assistant',
+    link: 'https://illinois.edu/',
+    daterange: 'January 2022 – May 2022',
+    points: [
+      'CEE 201, Instructor: Prof. Eleftheria Kontou',
+      'Organized and graded student homework and worksheet submission',
+      'Held weekly office hour and exam review sessions to help students understand course contents',
+      'Maintained Prairielearn platform for grades and statistics, and resolved issues reported by students',
+    ],
+  },
+  {
+    jobID: 5,
+    company: 'UIUC',
+    position: 'Teaching Assistant',
+    link: 'https://illinois.edu/',
+    daterange: 'August 2021 – December 2021',
+    points: [
+      'CEE 437, Instructor: Prof. Benito J. Mariñas',
+      'Developed chemical reaction plots with Python matplotlib module to help illustrate the chemical dissociation reaction process visualized by interactive plotting box',
+      'Assisted in developing course syllabus and managed course website page through online teaching platform including Canvas and Compass2g to improve students’ online studying experience',
+      'Lead an independent study group for RO membrane recycle and sustainability development study',
+    ],
+  },
+  {
+    jobID: 4,
+    company: 'UIUC',
+    position: 'Teaching Assistant',
+    link: 'https://illinois.edu/',
+    daterange: 'January 2020 – May 2021',
+    points: [
+      'CEE 449, Instructor: Prof. Benito J. Mariñas',
+      'Ranked as Teaching Assistant Ranked as Excellent by Their Students in UIUC of 2020 and 2021',
+      'Lead engineering design groups and evaluated student project progress throughout the semester',
+      'Adapted course structure in online format for accommodating campus Covid-19 instruction',
+      'Organized course field trip to Ecuador by ordering supplies and planning itinerary',
+    ],
+  },
+  {
+    jobID: 3,
+    company: 'UNEP-Tongji Institute of Environment(IESD)',
+    position: 'Public Media Management Internship',
+    link: 'https://unep-iesd.tongji.edu.cn/iesden/main.htm',
+    daterange: 'July 2017 – June 2018',
+    points: [
+      'Served as the minister of information and technology department of the IESD volunteer group to manage and develop the official multi-purpose public media account, including WeChat official account platform',
+      'Processed environmental and sustainable development data with Python, C#, and MATLAB for academic analysis and public education purpose',
+    ],
+  },
+  {
+    jobID: 2,
+    company: 'Desalination Water Plant Renovation Project',
+    position: 'Isla Puna, Ecuador',
+    link: 'https://publish.illinois.edu/cee449-sgwi/ecuador/',
+    daterange: 'Feburary 2020',
+    points: [
+      'Cooperated with Interagua C. Ltda. for desalination drinking water treatment plant renovation program, conducted field research and laboratory work for studying and designing',
+      'Interacted with local community in Ecuador for neighborhood interviews and collected water samples for designing purpose, lead group work to finish an executable report under professional instruction',
+    ],
+  },
+  {
+    jobID: 1,
+    company: 'Drinking Water Treatment Plant Design Project',
+    position: 'Nakivale, Uganda',
+    link: 'https://publish.illinois.edu/cee449-sgwi/category/uganda-spring-2019/',
+    daterange: 'Feburary 2020',
+    points: [
+      'Traveled to Nakivale Refugee Settlement, Uganda and interacted with local community for clean drinking water survey, integrated discoveries into practical report to help community system design',
+      'Collaborated with Safe Global Water Institute to provide voluntarily science course for primary school students in Uganda for education purpose',
+    ],
+  },
+];
+
+export default positions;

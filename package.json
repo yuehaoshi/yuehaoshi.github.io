@@ -1,17 +1,40 @@
 {
   "name": "portfolio-app",
   "version": "0.1.0",
+  "homepage": "https://yuehaoshi.github.io",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "caniuse-lite": "^1.0.30001320",
+    "customize-cra": "^1.0.0",
+    "dayjs": "^1.11.0",
+    "mapbox-gl": "^1.13.0",
+    "prop-types": "^15.8.1",
+    "raw.macro": "^0.4.2",
+    "react": "^17.0.2",
+    "react-app-rewired": "^2.2.1",
+    "react-burger-menu": "^3.0.6",
+    "react-ga": "^3.3.0",
+    "react-helmet-async": "^1.2.3",
+    "react-map-gl": "^7.0.10",
+    "react-markdown": "^8.0.1",
+    "react-mouse-particles": "^1.1.5",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "^5.0.0",
+    "react-tsparticles": "^1.42.4",
+    "resolve-url-loader": "^5.0.0",
+    "tsparticles": "^1.42.4",
+    "web-vitals": "^2.1.4",
+    "worker-loader": "^3.0.8"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +57,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "sass": "^1.52.0"
   }
 }
